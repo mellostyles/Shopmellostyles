@@ -1,17 +1,14 @@
 import React from 'react';
 
-const ShopMelloStyles = () => {
+function Store() {
+  // Main store component with product catalog, cart, checkout, and one-click upsell modal
+
   return (
     <div>
-      {/* Stripe Integration */}
-      {/* Product Catalog */}
-      {/* Cart */}
-      {/* One-Click Upsell Modal */}
+      <h1>Welcome to ShopMelloStyles</h1>
+      {/* Product catalog, cart, checkout, and upsell modal components go here */}
     </div>
   );
-};
+}
 
-export default ShopMelloStyles;
-
-// Stripe public key
-const stripePublicKey = 'pk_test_51TNwZULQ4IJ5ksP84uMHB6NpNYGKlyyJnNrPqv0A7DpAMic7bkMaj0w88qKkcwUskon0zzbbmRSlAezXAymY2U8qRRtLzV2';
+export default Store;
